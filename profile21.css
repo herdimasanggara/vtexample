@@ -1,0 +1,157 @@
+body {
+  background-color: black;
+  overflow-x: hidden;
+
+  background: linear-gradient(270deg, black, green);
+  background-size: 400% 400%;
+
+  -webkit-animation: flashing 1s ease infinite;
+  -moz-animation: flashing 1s ease infinite;
+  animation: flashing 1s ease infinite;
+}
+
+@-webkit-keyframes flashing {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes flashing {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes flashing {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.row {
+  display: flex;
+  margin: 0 -12px;
+}
+
+.column01 {
+  flex: 100%;
+  padding: 0 12px;
+}
+
+.column02 {
+  flex: 50%;
+  padding: 0 12px;
+}
+
+.column03 {
+  flex: 33.333333333%;
+  padding: 0 12px;
+}
+
+.column04 {
+  flex: 25%;
+  padding: 0 12px;
+}
+
+.column05 {
+  flex: 20%;
+  padding: 0 12px;
+}
+
+.column06 {
+  flex: 16.666666667%;
+  padding: 0 12px;
+}
+
+.column07 {
+  flex: 14.285714285%;
+  padding: 0 12px;
+}
+
+.column08 {
+  flex: 12.5%;
+  padding: 0 12px;
+}
+
+.column09 {
+  flex: 11.111111111%;
+  padding: 0 12px;
+}
+
+.column10 {
+  flex: 10%;
+  padding: 0 12px;
+}
+
+.column11 {
+  flex: 9.090909090%;
+  padding: 0 12px;
+}
+
+.row {
+  margin-top: 24px;
+}
+
+.column01 p {
+  background: radial-gradient(green, black);
+  animation: gradients 0.5s ease infinite;
+}
+
+.column02 p {
+  background: radial-gradient(green, black);
+  animation: gradients 0.5s ease infinite;
+}
+
+.column03 p {
+  background: radial-gradient(green, black);
+  animation: gradients 0.5s ease infinite;
+}
+
+.column04 p {
+  background: radial-gradient(green, black);
+  animation: gradients 0.5s ease infinite;
+}
+
+.column05 p {
+  background: radial-gradient(green, black);
+  animation: gradients 0.5s ease infinite;
+}
+
+.column06 p {
+  background: radial-gradient(green, black);
+  animation: gradients 0.5s ease infinite;
+}
+
+.column07 p {
+  background: radial-gradient(green, black);
+  animation: gradients 0.5s ease infinite;
+}
+
+.column08 p {
+  background: radial-gradient(green, black);
+  animation: gradients 0.5s ease infinite;
+}
+
+.column09 p {
+  background: radial-gradient(green, black);
+  animation: gradients 0.5s ease infinite;
+}
+
+.column10 p {
+  background: radial-gradient(green, black);
+  animation: gradients 0.5s ease infinite;
+}
+
+.column11 p {
+  background: radial-gradient(green, black);
+  animation: gradients 0.5s ease infinite;
+}
+
+@keyframes gradients {
+  0% {background-color: green;}
+  50% {background-color: black;}
+  100% {background-color: green;}
+}
+
+p {
+  padding: 10px;
+  margin: 0;
+}

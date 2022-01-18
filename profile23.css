@@ -1,0 +1,21 @@
+body {
+	perspective: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  background: black;
+}
+
+.pattern {
+	width: 200px;
+	height: 200px;
+	background: radial-gradient(black, green);
+	transform: rotateY(45deg);
+	animation: flipping 0.5s linear infinite;
+}
+
+@keyframes flipping {
+	from {transform: rotateY(45deg);}
+	to {transform: rotateY(225deg);}
+}

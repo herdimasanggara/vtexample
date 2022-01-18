@@ -1,0 +1,158 @@
+body {
+  background-color: black;
+}
+
+a {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.container-box {
+  display: flex;
+  justify-content: center;
+
+}
+
+.onefifth {
+  width: 15vw;
+  color: grey;
+  text-shadow: 2px 2px 8px white;
+}
+
+.box {
+  margin-left: -1vw;
+  margin-right: -1vw;
+}
+
+.onefifth::after {
+    animation-play-state: paused;
+}
+
+.fspacing01 {
+	animation: spacing01 1s linear infinite;
+}
+
+.fspacing02 {
+  transform: rotateY(10deg);
+  animation: spacing02 1s linear infinite;
+}
+
+.fspacing03 {
+  transform: rotateY(20deg);
+  animation: spacing03 1s linear infinite;
+}
+
+.fspacing04 {
+  transform: rotateY(30deg);
+  animation: spacing04 1s linear infinite;
+}
+
+.fspacing05 {
+  transform: rotateY(40deg);
+  animation: spacing05 1s linear infinite;
+}
+
+.fspacing06 {
+  transform: rotateY(50deg);
+  animation: spacing06 1s linear infinite;
+}
+
+.fspacing07 {
+  transform: rotateY(60deg);
+  animation: spacing07 1s linear infinite;
+}
+
+.fspacing08 {
+  transform: rotateY(70deg);
+  animation: spacing08 1s linear infinite;
+}
+
+.fspacing09 {
+  transform: rotateY(80deg);
+  animation: spacing09 1s linear infinite;
+}
+
+.fspacing10 {
+  transform: rotateY(90deg);
+  animation: spacing10 1s linear infinite;
+}
+
+.fspacing11 {
+  transform: rotateY(100deg);
+  animation: spacing11 1s linear infinite;
+}
+
+@keyframes spacing01 {
+  from {transform: rotateY(0deg);}
+  to {transform: rotateY(360deg);}
+}
+
+@keyframes spacing02 {
+  from {transform: rotateY(10deg);}
+  to {transform: rotateY(370deg);}
+}
+
+@keyframes spacing03 {
+  from {transform: rotateY(20deg);}
+  to {transform: rotateY(380deg);}
+}
+
+@keyframes spacing04 {
+  from {transform: rotateY(30deg);}
+  to {transform: rotateY(390deg);}
+}
+
+@keyframes spacing05 {
+  from {transform: rotateY(40deg);}
+  to {transform: rotateY(400deg);}
+}
+
+@keyframes spacing06 {
+  from {transform: rotateY(50deg);}
+  to {transform: rotateY(410deg);}
+}
+
+@keyframes spacing07 {
+  from {transform: rotateY(60deg);}
+  to {transform: rotateY(420deg);}
+}
+
+@keyframes spacing08 {
+  from {transform: rotateY(70deg);}
+  to {transform: rotateY(430deg);}
+}
+
+@keyframes spacing09 {
+  from {transform: rotateY(80deg);}
+  to {transform: rotateY(440deg);}
+}
+
+@keyframes spacing10 {
+  from {transform: rotateY(90deg);}
+  to {transform: rotateY(450deg);}
+}
+
+@keyframes spacing11 {
+  from {transform: rotateY(100deg);}
+  to {transform: rotateY(460deg);}
+}
+
+/*.fglow {
+  animation: glowing 1s linear infinite;
+}
+
+@keyframes glowing {
+  0% { text-shadow: 0 0 0px black; }
+  12.5% { text-shadow: 0 0 4px black; }
+  25% { text-shadow: 0 0 8px black; }
+  37.5% { text-shadow: 0 0 12px black; }
+  50% { text-shadow: 0 0 16px black; }
+  62.5% { text-shadow: 0 0 12px black; }
+  75% { text-shadow: 0 0 8px black; }
+  87.5% { text-shadow: 0 0 4px black; }
+  100% { box-shadow: 0 0 0px black; }
+}*/
